@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="editors-xtd" method="upgrade">
+  <name>PLG_EDITORS-XTD_PBJCEBROWSER</name>
+  <creationDate>05/2021</creationDate>
+  <author>Sebastian Brümmer</author>
+  <authorEmail>sebastian@produktivbuero.de</authorEmail>
+  <authorUrl>https://www.produktivbuero.de</authorUrl>
+  <copyright>Copyright (C) 2021 *produktivbüro . All rights reserved</copyright>
+  <license>GNU General Public License version 2 or later</license>
+  <version>0.9.0</version>
+  <description>PLG_EDITORS-XTD_PBJCEBROWSER_XML_DESCRIPTION</description>
+
+  <!-- Plugin files -->
+	<files>
+		<filename plugin="pbjcebrowser">pbjcebrowser.php</filename>
+	</files>
+
+  <!-- Language files -->
+  <languages folder="language">
+    <language tag="de-DE">de-DE/de-DE.plg_editors-xtd_pbjcebrowser.ini</language>
+    <language tag="de-DE">de-DE/de-DE.plg_editors-xtd_pbjcebrowser.sys.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_editors-xtd_pbjcebrowser.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_editors-xtd_pbjcebrowser.sys.ini</language>
+  </languages>
+
+  <!-- Updates -->
+  <updateservers>
+    <server type="extension" priority="1" name="PLG_EDITORS-XTD_PBJCEBROWSER">https://raw.githubusercontent.com/produktivbuero/joomla-pbjcebrowser/master/updates.xml</server>
+  </updateservers>
+</extension>
